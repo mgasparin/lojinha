@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Vendas da Lojinha</h1>
+    <form id="sales-form">
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="team">Equipe:</label>
+        <select id="team" name="team" required></select>
+        
+        <label for="participant">Participante:</label>
+        <select id="participant" name="participant" required></select>
+        
+        <label for="product">Produto:</label>
+        <select id="product" name="product" required></select>
+        
+        <label for="quantity">Quantidade:</label>
+        <input type="number" id="quantity" name="quantity" required>
+        
+        <button type="submit">Registrar Venda</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
